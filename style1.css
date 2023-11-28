@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+
+
+:root{
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary:#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --secondary-color: #29a9fd;
+    --bs-supporting-color: #C850C0;
+    --bs-x-color: #3e3e3e;
+}
+
+h1, h2,h3,h4,h5{
+    font-family: 'Lexend Deca', sans-serif;
+    color: var( --bs-dark-color);
+}
+
+.navbar-brand{
+    text-align: center;
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.51);
+}
+.nav-link{
+    color: black;
+}
+
+.main-section{
+    background-image: linear-gradient(rgba(22, 22, 22, 0.837), rgba(22, 22, 22, 0.837)), url("https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 2rem 0;
+    overflow: hidden;
+    max-width: 100%;
+    width: auto;
+    
+}
+.editor1{
+    padding-left: 70px;
+    padding-right: 70px;
+    width: auto;
+}
+
+.card-header {
+    background-color: rgba(20, 19, 19) ;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+
+.form-control {
+    background-color: rgba(0, 0, 0, 0.51);
+    
+    
+    border: none;
+}
+
+@media screen and (max-width: 998px) {
+    .editor1{
+        padding-left: 70px;
+    padding-right: 70px;
+    width: auto;
+    
+    }
+    .card{
+        margin-bottom: 40px;
+        
+    }
+}
+
+textarea{
+    color: rgba(236, 21, 21, 0.061);
+    background-color: #0778e9;
+}
+
+.output-section{
+    background-image: linear-gradient(rgba(22, 22, 22, 0.837), rgba(22, 22, 22, 0.837)), url("https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 2rem 0;
+    overflow: hidden;
+    max-width: 100%;
+    width: auto;
+
+}
+
+#output{
+    background-color: white;
+}
+
+
+.editor2{
+    
+    padding-left: 60px;
+    padding-right: 60px;
+    width: auto;
+}
+.output-area{
+    color: white;
+   
+    height: 500px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+    align-content: center;
+    align-self: center;
+    background-color: grey;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(253, 247, 247);
+    align-self: center;
+    margin-left: 4px;
+}
+
+@media screen and (max-width: 998px) {
+    .liv{
+        text-align: center;
+    }
+    .handle{
+        text-align: center;
+    }
+}

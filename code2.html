@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Master - Online Code Editor</title>
+    <link rel="shortcut icon" type="image" href="/images/Untitled_design__1_-removebg-preview.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    <link rel="shortcut icon" href="/images/logo2-PhotoRoom.png-PhotoRoom.png" type="image/x-icon">
+    <link href="/style1.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="bg-main navbar navbar-expand-lg bg-body-tertiary pt-lg-2 pb-lg-2" >
+        <div class="container">
+          <img src="/images/l.png" width="65" height="70">
+          <a class="navbar-brand " href="#">Code Master</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Contact Us</a>
+              </li>
+              
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    
+    
+   <section>
+    <div class="editor container main-section  pt-5 ">
+        
+        
+        <div class="editor1 ">
+            <div class="row">
+            <div class="col-12 col-lg-4 col-md-12">
+                <div class="card border border-light" >
+                    <div class="card-header">
+                        <img src="/images/html.png" class="icon-card me-2" style="align-items:start; width: 20px; height:20px;">
+                        HTML
+                    </div>
+                    
+                        <textarea id="html-code" class="form-control" rows="10"></textarea>
+                        
+                     
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-12">
+                <div class="card border border-light border-success" >
+                    <div class="card-header">
+                        <img src="/images/css.png" class=" icon-card me-2" style="width: 20px; height: 20px;">
+                        CSS
+                    </div>
+                    
+                        <textarea id="css-code" class="form-control" rows="10"></textarea>
+                    
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 col-md-12">
+                <div class="card border border-light">
+                    <div class="card-header">
+                        <img src="/images/JavaScript.png" class="icon-card me-2" style="width: 20px; height: 20px;">
+                        JavaScript
+                    </div>
+                    
+                        <textarea id="js-code" class="form-control" rows="10"></textarea>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+<section>
+    <div class="editor container output-section  ">
+        
+        
+            <div class="editor2 row">
+                <div class=" col-12 col-lg-12 col-md-12">
+                    <iframe class="output-area" rows="20" id="output"></iframe>
+                </div>
+            </div>
+       
+    </div>
+</section> 
+
+<section>
+    <footer class="bd-footer py-4 py-md-5  bg-body-tertiary" style="background-color: #c6c6c6;">
+      <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+        <div class="row">
+          <div class="liv col-12 col-lg-6 mb-3">
+            <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/" aria-label="Bootstrap">
+              <img src="/images/l.png" width="65" height="70">
+              
+              <span class="fs-5" style="color: black;">Code Master</span>
+            </a>
+            <ul class="list-unstyled small">
+              <li class="mb-2">Elevate your website to new heights with cutting-edge code mastery, bringing it to life like never before! </a>.</li>
+              <li class="mb-2">Code licensed Code Master</a>.</li>
+              
+            </ul>
+          </div>
+          <div class="col-12 col-lg-6 ">
+            <div class="container handle p-5 px-5">
+              
+              <img src="/images/insta.png" width="100" height="100" class="p-3">
+              
+              <img src="/images/linked.png" width="100" height="100" class="p-3">
+              
+              <img src="/images/x.webp" width="100" height="100" class="p-3">
+            </div>
+
+          </div>
+          
+
+          
+        </div>
+      </div>
+    </footer>
+  </section>
+
+
+                        
+       
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+    
+
+    <script type="text/javascript">
+        function run(){
+            let htmlCode=document.querySelector(".editor #html-code").value;
+            let cssCode="<style>"+document.querySelector(".editor #css-code").value+"</style>";
+            let jsCode=document.querySelector(".editor #js-code").value;
+            let output=document.querySelector(".editor #output");
+            console.log(htmlCode,cssCode,jsCode,output);
+            output.contentDocument.body.innerHTML=htmlCode+cssCode;
+            output.contentWindow.eval(jsCode);
+        }
+        document.querySelector(".editor #html-code").addEventListener("keyup",run);
+        document.querySelector(".editor #css-code").addEventListener("keyup",run);
+        document.querySelector(".editor #js-code").addEventListener("keyup",run);
+    
+        </script>
+</body>
+</html>
