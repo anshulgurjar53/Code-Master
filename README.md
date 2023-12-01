@@ -1,4 +1,4 @@
-                                              Code Master: Beginner-Friendly Front-End Web Development Live Code Editor
+Code Master: Beginner-Friendly Front-End Web Development Live Code Editor
                                               
 Welcome to Code Master - Your Gateway to Seamless Web Development!
 
@@ -25,7 +25,8 @@ Clone the Repository:
 
 bash
 Copy code
-git clone https://github.com/anshulgurjar53/Code-Master.git
+git clone
+https://anshulgurjar53.github.io/CodeMaster.github.io/
 Open Code Master:
 Launch Code Master in your browser and start coding instantly.
 
